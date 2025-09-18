@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyTorch
+*.pth
+*.pt
+
+# Outputs (but keep the folder structure)
+outputs/*.png
+outputs/*.jpg
+outputs/*.jpeg
+outputs/*.bmp
+outputs/*.tiff
+!outputs/.gitkeep
+
+# Input images (but keep sample and gitkeep)
+imgs/*.png
+imgs/*.jpg
+imgs/*.jpeg
+imgs/*.bmp
+imgs/*.tiff
+!imgs/sample.png
+!imgs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
